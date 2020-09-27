@@ -1,0 +1,102 @@
+
+
+<html lang="en">
+<head>
+
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Diamond Exchange</title>
+   <link rel="icon" href="/img/fav-icon.png">
+  <!-- Custom fonts for this template-->
+  <link href="%PUBLIC_URL%/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- Page level plugin CSS-->
+  <link href="%PUBLIC_URL%/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <!-- Custom styles for this template-->
+  <link href="%PUBLIC_URL%/css/sb-admin.css" rel="stylesheet">
+  <link href="%PUBLIC_URL%/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+  
+
+</head>
+
+<body  >
+
+		<div id="root">
+			
+		</div> 
+     
+<!-- Bootstrap core JavaScript-->
+  <script src="%PUBLIC_URL%/vendor/jquery/jquery.min.js"></script>
+  <script src="%PUBLIC_URL%/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="%PUBLIC_URL%/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Page level plugin JavaScript-->
+  <script src="%PUBLIC_URL%/vendor/chart.js/Chart.min.js"></script>
+  <script src="%PUBLIC_URL%/vendor/datatables/jquery.dataTables.js"></script>
+  <script src="%PUBLIC_URL%/vendor/datatables/dataTables.bootstrap4.js"></script>
+  <!-- Custom scripts for all pages-->
+  <!-- Demo scripts for this page-->
+  <script src="%PUBLIC_URL%/js/demo/datatables-demo.js"></script>
+  <script src="%PUBLIC_URL%/js/demo/chart-area-demo.js"></script>
+  <script src="%PUBLIC_URL%/js/tree.js"></script>
+  <script src="http://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+
+  <script src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js
+  "></script>
+  <script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.flash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  
+
+  
+
+  <script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.html5.min.js"></script>
+ 
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+  
+  <script type="text/javascript">
+  $(document).ready(function(){
+   /* $("#close").click(function(){
+        $(".popop_boxman").hide();
+    }) */
+	//setTimeout(function(){  $(".popop_boxman").show(); }, 5000);
+	var fixmeTop = $('.sidebar-right').offset().top; 
+	window.onscroll = function() {myFunction(fixmeTop)};
+
+	
+});
+
+
+
+function myFunction(fixmeTop) {
+
+  var currentScroll = $(window).scrollTop(); 
+
+    if (currentScroll >= fixmeTop) {          
+        $(".sidebar-right").addClass("sticky");
+    } else {                                  
+       $(".sidebar-right").removeClass("sticky"); 
+    }
+}
+
+
+  </script>
+
+
+ 
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
