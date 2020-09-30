@@ -10,10 +10,10 @@ import { useClearCache } from "react-clear-cache";
 import socketIOClient from "socket.io-client";
 import Timer from 'react-compound-timer'
 var CryptoJS = require("crypto-js");
-const ENDPOINT = "http://172.105.40.76:4010";
+const ENDPOINT = "http://18.159.217.229:4010";
 
 const $ = window.$;
-const baseUrl = "http://172.105.40.76:4000";
+const baseUrl = "http://18.159.217.229:4000";
 
 class Index extends Component {
 

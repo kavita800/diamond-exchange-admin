@@ -13,10 +13,10 @@ import Modal from "react-bootstrap-modal";
 
   
 var CryptoJS = require("crypto-js");
-const ENDPOINT = "http://172.105.40.76:4011";
+const ENDPOINT = "http://18.159.217.229:4011";
 
 const $ = window.$;
-const baseUrl ="http://172.105.40.76:4000"; 
+const baseUrl ="http://18.159.217.229:4000"; 
 // Third argument is the inner text
 
 

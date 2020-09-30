@@ -16,7 +16,7 @@ import Modal from "react-bootstrap-modal";
 
 // import jsPDF from 'jspdf'
 // import 'jspdf-autotable'
-const baseUrl ="http://172.105.40.76:4000/api";
+const baseUrl ="http://18.159.217.229:4000/api";
 //const doc = new jsPDF()
 const $ = require('jquery');
 const columns = [{

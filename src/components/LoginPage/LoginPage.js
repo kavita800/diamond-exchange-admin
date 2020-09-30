@@ -3,8 +3,9 @@ var axios = require('axios');
 import {Link,Redirect} from "react-router-dom";
 import jQuery from "jquery";
 import './LoginPage.css';
-const baseUrl = "http://172.105.40.76:4000";
-// const baseUrl = "http:localhost:4000";
+const baseUrl = "http://18.159.217.229:4000";
+// const baseUrl = "http:18.159.217.229:4000";
+// const baseUrl = "http://172.105.40.76:4000";
 
 class LoginPage extends Component {
  

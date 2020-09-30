@@ -13,7 +13,7 @@ import loadjs from 'loadjs'
 require("react-bootstrap-modal/lib/css/rbm-complete.css");
 import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css';
-const baseUrl = "http://172.105.40.76:4000/api"; 
+const baseUrl = "http://18.159.217.229:4000/api"; 
 
 
 

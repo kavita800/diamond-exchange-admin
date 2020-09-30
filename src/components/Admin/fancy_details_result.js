@@ -11,7 +11,7 @@ import Modal from "react-bootstrap-modal";
 import $ from "jquery";
 import loadjs from 'loadjs'
 require("react-bootstrap-modal/lib/css/rbm-complete.css");
-const baseUrl = "http://172.105.40.76:4000/api"; 
+const baseUrl = "http://18.159.217.229:4000/api"; 
 
 
 

@@ -11,7 +11,7 @@ import DataTable from 'react-data-table-component';
 import {BootstrapTable,TableHeaderColumn} from 'react-bootstrap-table';
 import 'react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
 
-const baseUrl ="http://172.105.40.76:4000/api";
+const baseUrl ="http://18.159.217.229:4000/api";
 const $ = require('jquery');
 const columns = [{
   dataField: 'id',

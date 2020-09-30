@@ -8,7 +8,7 @@ import Loading from 'react-fullscreen-loading';
 import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css';
 const $ = window.$;
-const baseUrl = "http://172.105.40.76:4000"; 
+const baseUrl = "http://18.159.217.229:4000"; 
 class Index extends Component {
 
 	constructor(props) {

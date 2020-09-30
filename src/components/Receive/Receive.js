@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from '../Header/Header';
 import {Link,Redirect} from "react-router-dom";
 import axios from "axios";
-const baseUrl = "http://172.105.40.76:4000";
+const baseUrl = "http://18.159.217.229:4000";
 
 class Receive extends Component {
 	

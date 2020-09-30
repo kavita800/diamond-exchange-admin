@@ -8,7 +8,7 @@ var Datetime=require('react-datetime');
 
 // const [value, onChange] = useState(new Date());
 var date = new Date();
-const baseUrl = "http://172.105.40.76:4000"; 
+const baseUrl = "http://18.159.217.229:4000"; 
 class Receive extends Component {
 	
    constructor(props) {
